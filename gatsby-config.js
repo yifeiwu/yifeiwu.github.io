@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Placeholder Blog Title`,
+    title: `Assorted Notes`,
     author: `Yifei Wu`,
     description: `Muh Blog`,
     siteUrl: `yifeiwu.github.io`,

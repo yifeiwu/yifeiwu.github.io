@@ -31,10 +31,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Melbourne building sometimes useful things.
+              As dictated to Alexa by
               {` `}
               <a href={`https://linkedin.com/in/${social.linkedin}`}>
-                LinkedIn
+                {author}
               </a>
             </p>
           </div>
