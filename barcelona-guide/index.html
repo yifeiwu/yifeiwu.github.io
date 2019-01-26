@@ -1,0 +1,482 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/app.bddaef654c66ded1434d.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-50d279861fb3cbfed809eae6ed8b9ac9.woff2) format("woff2"),url(/static/montserrat-latin-100-5e334eff013f12fbb8ed72c2a253f119.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-8c0705336558194799a8729840d7ed9d.woff2) format("woff2"),url(/static/montserrat-latin-100italic-03e19243272affe738654a157625ec26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-4343d3d91a9446226e7a8bbb024111ad.woff2) format("woff2"),url(/static/montserrat-latin-200-f2022ecd65a0703ec3edcb7641709a75.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-116c4c4b14ef76b0555da09854512022.woff2) format("woff2"),url(/static/montserrat-latin-200italic-89614a6008fc5c60739012463d0ee7e6.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-d2ad295b60682a6537c358e06ea80c61.woff2) format("woff2"),url(/static/montserrat-latin-300-3a371ee0d175f5c2b15ce1d6b981dc4e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-f6b6bf2431003f8142e800f9df157989.woff2) format("woff2"),url(/static/montserrat-latin-300italic-16521668f5f238098329cdd7d27c391e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-240a84447b78da0920fcb07e378f2c5f.woff2) format("woff2"),url(/static/montserrat-latin-400-b20cc131034316b1c85d0498fb9ed5c5.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-86172bb829de6be08b92512096b6aca6.woff2) format("woff2"),url(/static/montserrat-latin-400italic-9405e78785a55cf0e4ea7669d4616ea9.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-fb8d6b71dbe8d9294be43082936f649e.woff2) format("woff2"),url(/static/montserrat-latin-500-50825d47af7ae47e055018eb689c6c99.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-c0a555a4f8e997385a3eebbd4da0b9ee.woff2) format("woff2"),url(/static/montserrat-latin-500italic-635de59c4be86285b1f70068c95b9816.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-d5615136a08cfee70deb4be1ee1651df.woff2) format("woff2"),url(/static/montserrat-latin-600-f300da4fb4fe00e23915f62b2c643681.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-10f29d139edacde92df63374c5672568.woff2) format("woff2"),url(/static/montserrat-latin-600italic-2bc37d86a4ba12ce526c4af904a9946e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-7d77e1f03eefc452dab14d7f89080083.woff2) format("woff2"),url(/static/montserrat-latin-700-81826529772e52f0f14a4c73c2f2c7f1.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-1dd2b53f1567a29e0505de9b27c4352c.woff2) format("woff2"),url(/static/montserrat-latin-700italic-c162d257f5e9f9b108a96a604cfb2132.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-d4e7bf86bbd8e5f43ca73fa831218648.woff2) format("woff2"),url(/static/montserrat-latin-800-895aadbff357be35ac8dd107c7975ee7.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-fc0cbe442f7b3733c91e982e825c4daa.woff2) format("woff2"),url(/static/montserrat-latin-800italic-b3362875067300abedb7a8fb97903258.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-c8bdd772c0d1347720ff7e3fb72719f3.woff2) format("woff2"),url(/static/montserrat-latin-900-1b99ef78e627dd9bbd0ca4b5c0789547.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-cb72c1f90f66c124fb897a75bec64c78.woff2) format("woff2"),url(/static/montserrat-latin-900italic-b78bb9f8ecec6c5a924c873f1818095f.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-f015f1e9a46a3b9db4fd64564dacece4.woff2) format("woff2"),url(/static/merriweather-latin-300-92dfe81b725c342d31d962da975c07a6.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-7fd86b32accf2df4403d1d4fa3a81502.woff2) format("woff2"),url(/static/merriweather-latin-300italic-878b76f59d5ba58dd1652dc8d2a0f4f9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-12dbf4c00ae43698f278b099e4b0ec9e.woff2) format("woff2"),url(/static/merriweather-latin-400-1fffad22b085a877995812dbf1d9ac08.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-1e0d3e8121d88969bfb153c8f174b758.woff2) format("woff2"),url(/static/merriweather-latin-400italic-de18d4c4e8e808a7248a185f866ff094.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-dc8fec81a125fc63856587e6683da73b.woff2) format("woff2"),url(/static/merriweather-latin-700-d7d2ed8e58f303392cc3fc00ba3a9186.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-b7b7e5da4d7be8c12bd5a6c809edc8fc.woff2) format("woff2"),url(/static/merriweather-latin-700italic-6210a5fc1c54ca85a5d82aa85d7a9b5c.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-43f870d543dd89fbeb66d417c0d97276.woff2) format("woff2"),url(/static/merriweather-latin-900-8f3806df74937c7b8b53f24ae1e725d1.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-168c1ab28ed0e4e7d654334def288bc1.woff2) format("woff2"),url(/static/merriweather-latin-900italic-ae7778f01871e35ee142ef207b313b34.woff) format("woff")}</style><meta name="generator" content="Gatsby 2.0.76"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><title data-react-helmet="true">The Guide to Barcelona 12/2018 | Assorted Notes</title><meta data-react-helmet="true" name="description" content="I visited Barcelona with my cousin recently. As one of the most visited 
+places on Earth, there’s no shortage of general guides
+but I promise, mine will be the…"/><meta data-react-helmet="true" property="og:title" content="The Guide to Barcelona 12/2018"/><meta data-react-helmet="true" property="og:description" content="I visited Barcelona with my cousin recently. As one of the most visited 
+places on Earth, there’s no shortage of general guides
+but I promise, mine will be the…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Yifei Wu"/><meta data-react-helmet="true" name="twitter:title" content="The Guide to Barcelona 12/2018"/><meta data-react-helmet="true" name="twitter:description" content="I visited Barcelona with my cousin recently. As one of the most visited 
+places on Earth, there’s no shortage of general guides
+but I promise, mine will be the…"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><link as="script" rel="preload" href="/component---src-templates-blog-post-js-3a0692a9f6402ee9503c.js"/><link as="script" rel="preload" href="/0-2159707fafb24590a999.js"/><link as="script" rel="preload" href="/app-3d9fd7a5a7cd6cc2e6a1.js"/><link as="script" rel="preload" href="/webpack-runtime-b3385bb10f856980c571.js"/><link as="fetch" rel="preload" href="/static/d/91/path---barcelona-guide-f-45-a48-RsM0Ay95vEZ3kpoM8L9oxRFTrM.json" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">Assorted Notes</a></h3><h1>The Guide to Barcelona 12/2018</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">January 26, 2019</p><div><p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/7d02d840bbee7bf6e11e708b0b993ea9/30631/bcn.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHo2lIqoo//xAAaEAACAgMAAAAAAAAAAAAAAAAAAQMTAgQR/9oACAEBAAEFAuCjKxTj2Mi6Q//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AYj/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAABAwUAAAAAAAAAAAAAAAAAAQIQESEyQYH/2gAIAQEABj8CnZaqdM3H/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERQTFR4f/aAAgBAQABPyFXhVDMNYk5nYfoH//aAAwDAQACAAMAAAAQFN//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxCEP//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCsrP/EABkQAQEBAAMAAAAAAAAAAAAAAAERADGBof/aAAgBAQABPxB4x7IZBkMY8cMocNCrOpMp1//Z'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Barcelona"
+        title=""
+        src="/static/7d02d840bbee7bf6e11e708b0b993ea9/f8fb9/bcn.jpg"
+        srcset="/static/7d02d840bbee7bf6e11e708b0b993ea9/e8976/bcn.jpg 148w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/63df2/bcn.jpg 295w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/f8fb9/bcn.jpg 590w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/85e3d/bcn.jpg 885w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/d1924/bcn.jpg 1180w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/30631/bcn.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>I visited Barcelona with my cousin recently. As one of the most visited
+places on Earth, there’s no shortage of general guides
+but I promise, mine will be the best you’ve read so far :).</p>
+<h3>How I plan my trips</h3>
+<p>I’ve visited and lived in a lot of different cities and to be blunt,
+most are pretty similar. </p>
+<blockquote>
+<p>As much as my fellow Melbournians might
+disagree, I think it’s acceptable for international visitors to
+interchangeably pick either Sydney or Melbourne to visit. </p>
+</blockquote>
+<p>I want to see something new. Something cool. Something unique.
+One tool I find exceedingly useful is <a href="https://www.atlasobscura.com/">AtlasObscura</a>.
+This site uses mostly user submitted suggestions to curate a list of
+attractions that are strange, interesting or downright bizarre.</p>
+<p>I also like tripadvisor’s top attraction list and use it to get
+suggestions for each area I might visit. This usually has more of
+the mainstream tourist attractions.</p>
+<p>The important thing though is to leave enough free time to explore.
+Not everything is documented and it’s a lot more fun to be surprised.</p>
+<h4>Sagrada Familia</h4>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/2b4464d5c5bd833e0dd87eecd9a5516b/30631/sagrada1.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 133.3125%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIEBQP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAeGhm2c3OdQRspFSV//EAB4QAAICAgIDAAAAAAAAAAAAAAECAAMSIQQRIiMz/9oACAEBAAEFAuONlvEqRKz3YWBTMpFMGpizSv6WD1PP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHhAAAgEDBQAAAAAAAAAAAAAAAAFxAhEhEjFRYYH/2gAIAQEABj8CkZsJuCrJpwI6ObYKZPBQf//EAB0QAQACAwEAAwAAAAAAAAAAAAEAIRExUUFhcaH/2gAIAQEAAT8hQv41E8yMbMpNxCv6Q+OdIlM2OCUvW4NbMlhn68AzCN30T//aAAwDAQACAAMAAAAQ6+Hy/8QAGREAAgMBAAAAAAAAAAAAAAAAABEBECEx/9oACAEDAQE/EF0Ujyv/xAAZEQACAwEAAAAAAAAAAAAAAAAAARARMUH/2gAIAQIBAT8QXCx6o//EAB0QAQADAAIDAQAAAAAAAAAAAAEAESExQVGRodH/2gAIAQEAAT8QuQUXlzUY90CqUb7ZVQSWJERCkAMcgjDtk2ha9S7ox5ctfky5B9GsSpsxfksnULlSw4+MdFLPB19JZYtqW+cn/9k='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="sagrada"
+        title=""
+        src="/static/2b4464d5c5bd833e0dd87eecd9a5516b/f8fb9/sagrada1.jpg"
+        srcset="/static/2b4464d5c5bd833e0dd87eecd9a5516b/e8976/sagrada1.jpg 148w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/63df2/sagrada1.jpg 295w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/f8fb9/sagrada1.jpg 590w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/85e3d/sagrada1.jpg 885w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/d1924/sagrada1.jpg 1180w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/30631/sagrada1.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Arguably the most significant attraction in Barcelona, this Gaudi designed
+church is worth the hype. One of the perks of visiting in December is getting
+to visit the cathedral during Christmas Mass for the full experience. Check
+the calendar ahead of time, these events occur a few times a month.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/eb45fddde54dc4fade3e2f2137bd1c99/30631/sagrada2.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 133.3125%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBBAUC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAD/9oADAMBAAIQAxAAAAFkc1UdUUIUlXc7LV5BX//EABwQAAMAAgMBAAAAAAAAAAAAAAABAhEhAxIiQv/aAAgBAQABBQJ6HWKHSqorsTyax5Sw9o+xtn//xAAXEQEAAwAAAAAAAAAAAAAAAAABABAS/9oACAEDAQE/AQmb/8QAGREAAQUAAAAAAAAAAAAAAAAAAQACEBIh/9oACAECAQE/AS7VYT//xAAcEAACAgIDAAAAAAAAAAAAAAAAEQECECExQbH/2gAIAQEABj8CyoJOB928GaaLZ//EAB4QAAICAgIDAAAAAAAAAAAAAAERACExQVGBYaHR/9oACAEBAAE/IS4RAFTgEYRDLPiV/Fo7jBJPqUIvhGKQCnqRBekvUZYvIghokUJ//9oADAMBAAIAAwAAABDQMUz/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQEh/9oACAEDAQE/EMZ1Sq//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAECAQE/EHVBZQ//xAAhEAEBAAIABQUAAAAAAAAAAAABEQAhMVFhkcFBcaGx4f/aAAgBAQABPxBiSlQnKsvzl5pgvK38zRwyaAGlsKVDBRM242TzhPDXF6cJxTnsPl+sUhGvXBq22cnTAAgAk6SzvmrqKveYLBFGPQz/2Q=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="sagrada2"
+        title=""
+        src="/static/eb45fddde54dc4fade3e2f2137bd1c99/f8fb9/sagrada2.jpg"
+        srcset="/static/eb45fddde54dc4fade3e2f2137bd1c99/e8976/sagrada2.jpg 148w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/63df2/sagrada2.jpg 295w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/f8fb9/sagrada2.jpg 590w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/85e3d/sagrada2.jpg 885w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/d1924/sagrada2.jpg 1180w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/30631/sagrada2.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>Random note - Barcelona apparently has a tradition of hiding a rude figurine
+within nativity scenes called a caganer.</em></p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/ac1c1e76bea5351d05e4849597a4f57e/30631/cagane.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 133.3125%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgEA/9oADAMBAAIQAxAAAAHnMzlBYTFybVMpIb//xAAdEAEAAgICAwAAAAAAAAAAAAACAAEDERAxEiIy/9oACAEBAAEFArHqBqtmL5Dt3CPKEa4xzD2u/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAWEQADAAAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8BcP/EABwQAAEDBQAAAAAAAAAAAAAAABEAARAgMUFxgf/aAAgBAQAGPwKyIfSzB48Cr//EABwQAAMAAwEBAQAAAAAAAAAAAAABESExQWFRcf/aAAgBAQABPyFK6eEBYP6yNvU/aM9BBm4ox76URmmrNDwzGNG1+G0//9oADAMBAAIAAwAAABAoEE7/xAAYEQACAwAAAAAAAAAAAAAAAAAAEQEQMf/aAAgBAwEBPxCdpjP/xAAZEQADAAMAAAAAAAAAAAAAAAAAAREQMVH/2gAIAQIBAT8QWmV9JcP/xAAfEAEAAgICAgMAAAAAAAAAAAABABEhMUFhUXGBkaH/2gAIAQEAAT8QZpVyMP3EYV1nR5jQqeQh/CCQ8rTWw67lUGJLLRipusHUYzHgVzDocsN3UYhGlFNbInmNt+oD5J//2Q=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="cagane"
+        title=""
+        src="/static/ac1c1e76bea5351d05e4849597a4f57e/f8fb9/cagane.jpg"
+        srcset="/static/ac1c1e76bea5351d05e4849597a4f57e/e8976/cagane.jpg 148w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/63df2/cagane.jpg 295w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/f8fb9/cagane.jpg 590w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/85e3d/cagane.jpg 885w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/d1924/cagane.jpg 1180w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/30631/cagane.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h4>Urban Parks</h4>
+<p>The most famous park is Park Güell, another Gaudi designed attraction. Entrance
+to the park is free but you’ll need to pay to enter some areas. I think this
+qualifies a bit as a tourist trap, there’s not really much to do here. </p>
+<p>Instead, visit Parc del Laberint d’Horta located near the northern edge of the city
+to see some interesting sculptures as well as the namesake hedge maze. I was
+fortunately able to meet a local who recommended a guided tour that explained the
+history and stories of this area. </p>
+<p>A park that I walked through almost everyday due to it being close to the center of the city
+is Parc de la Ciutadella. It’s a great place to see people playing games and there’s a number of
+mini-attractions within.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/5066966cf47b80fdad1f714367b77933/30631/ciutadella.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAaNqqXLYXDf/xAAbEAACAgMBAAAAAAAAAAAAAAABAgASAxEhIv/aAAgBAQABBQJcvpWVhZRA3QZbc//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8BxUP/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREC/9oACAECAQE/Aay6P//EABoQAAICAwAAAAAAAAAAAAAAAAAhARAxQZH/2gAIAQEABj8CYjfLzJ//xAAcEAADAAEFAAAAAAAAAAAAAAAAAREhMUFRYZH/2gAIAQEAAT8h3CoTG1Q8JnK+xEcUb4K1ex//2gAMAwEAAgADAAAAEJQP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EMbH/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EBNX/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAMXEhUWH/2gAIAQEAAT8QYASsgW9Zg6KJIk+ZaAfVYS5eDOnBYuciZEL0Jn//2Q=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="ciutadella"
+        title=""
+        src="/static/5066966cf47b80fdad1f714367b77933/f8fb9/ciutadella.jpg"
+        srcset="/static/5066966cf47b80fdad1f714367b77933/e8976/ciutadella.jpg 148w,
+/static/5066966cf47b80fdad1f714367b77933/63df2/ciutadella.jpg 295w,
+/static/5066966cf47b80fdad1f714367b77933/f8fb9/ciutadella.jpg 590w,
+/static/5066966cf47b80fdad1f714367b77933/85e3d/ciutadella.jpg 885w,
+/static/5066966cf47b80fdad1f714367b77933/d1924/ciutadella.jpg 1180w,
+/static/5066966cf47b80fdad1f714367b77933/30631/ciutadella.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h4>Snacks!</h4>
+<p>People usually think tapas when they think Spain and they’d be right!
+In Catalonia, they call this pica-pica(pronounced like the pokemon).</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/39e3926a01c79b8cb69d206b5235ef44/30631/patatas.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 133.3125%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQL/xAAXAQEAAwAAAAAAAAAAAAAAAAACAAED/9oADAMBAAIQAxAAAAGVmhxm80mHV7E9EvM0c//EAB0QAAMBAAEFAAAAAAAAAAAAAAECAwQRABITIjP/2gAIAQEAAQUCzy8p0xWTBSRmUdmj2z9GxmseXSUZNPQoC5Psx4b/xAAXEQADAQAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/AWaOf//EABYRAAMAAAAAAAAAAAAAAAAAAAEgMf/aAAgBAgEBPwEVP//EAB4QAAIBBQADAAAAAAAAAAAAAAABAhESITFBEFGR/9oACAEBAAY/As6ItdMNfSRd6fhRXSUbuaE5PJB04IdD/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARIUExUXH/2gAIAQEAAT8ht90OTRE9DL5R/GSpBfC4DId4lt1KS+l+R+bL1GSW92BCi6Y2niMQCotn/9oADAMBAAIAAwAAABDY+ML/xAAXEQEBAQEAAAAAAAAAAAAAAAAAMRFx/9oACAEDAQE/EIcqa//EABkRAQACAwAAAAAAAAAAAAAAAAEAERAxYf/aAAgBAgEBPxBNOyoGsf/EACAQAQACAgIBBQAAAAAAAAAAAAEAESFBMWFRcYGRocH/2gAIAQEAAT8QU6F7MF+YQaym2Wc+kFOrWTo3uLJ0AMBrP7ChZJAacQnoLeKhutDvWcdcESeWAXabPqHh3UKVBLDIbwQxlyB5xF2BUe7P/9k='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="patatas"
+        title=""
+        src="/static/39e3926a01c79b8cb69d206b5235ef44/f8fb9/patatas.jpg"
+        srcset="/static/39e3926a01c79b8cb69d206b5235ef44/e8976/patatas.jpg 148w,
+/static/39e3926a01c79b8cb69d206b5235ef44/63df2/patatas.jpg 295w,
+/static/39e3926a01c79b8cb69d206b5235ef44/f8fb9/patatas.jpg 590w,
+/static/39e3926a01c79b8cb69d206b5235ef44/85e3d/patatas.jpg 885w,
+/static/39e3926a01c79b8cb69d206b5235ef44/d1924/patatas.jpg 1180w,
+/static/39e3926a01c79b8cb69d206b5235ef44/30631/patatas.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Quality does vary quite a bit—the ones I tried near the touristy
+Las Ramblas pales in comparison to ones you’d find near the less touristy
+areas like Gracia or Poble Nou.</p>
+<h4>Zaragoza</h4>
+<p>This is the 5th largest city in Spain. It has quite a different vibe from
+Barcelona and is worth a visit if you have the time. The train takes
+about 1.5hrs to get there.</p>
+<p>I tried some traditional stew that had bits of tripe and blood
+sausage called Garbanzo y Callos.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/02acd7df1a6dc7afbcaadad5578c3807/30631/callos.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 133.3125%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwH/xAAXAQEAAwAAAAAAAAAAAAAAAAACAAED/9oADAMBAAIQAxAAAAF5LJs1iOFbTbMxKdJf/8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAERID/9oACAEBAAEFAujklqJmbU86GY90huOCG7Md0MGf/8QAGREAAQUAAAAAAAAAAAAAAAAAAAEQERIh/9oACAEDAQE/AcLIS3//xAAZEQABBQAAAAAAAAAAAAAAAAAAAhAREiH/2gAIAQIBAT8B0qohv//EABsQAAEFAQEAAAAAAAAAAAAAAAEAEBEhMRJh/9oACAEBAAY/AvFbC9Uy2wEOpAONqBb/xAAdEAACAwEAAwEAAAAAAAAAAAAAAREhQTFRYXGB/9oACAEBAAE/IUPFIhynSe4XlEaNfx6G820RSdDBjJyLQPqlP4hdIwJziU9Kftn/2gAMAwEAAgADAAAAENTisP/EABkRAAMAAwAAAAAAAAAAAAAAAAABESExQf/aAAgBAwEBPxBRoj0TRCWD/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARMSH/2gAIAQIBAT8QR9huF4Ulxy//xAAeEAEBAAMBAAIDAAAAAAAAAAABEQAhMUFRYXGh4f/aAAgBAQABPxBnESqrDmie3Nnr2OOCoRhQH4wuxPdQCcnuCYk7n9sX0idd8zmJNpqn185SIEOr+cjC+Or+ZWwtOjcfcZSKhnFd4lCLRW+q5//Z'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="callos"
+        title=""
+        src="/static/02acd7df1a6dc7afbcaadad5578c3807/f8fb9/callos.jpg"
+        srcset="/static/02acd7df1a6dc7afbcaadad5578c3807/e8976/callos.jpg 148w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/63df2/callos.jpg 295w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/f8fb9/callos.jpg 590w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/85e3d/callos.jpg 885w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/d1924/callos.jpg 1180w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/30631/callos.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>There was also a Moorish Palace that you can visit. Unfortunately
+age has destroyed a lot of its former beauty.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/bcf552a1f3a412dd6e5b809017bdd323/30631/palace.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABaM2NSyUA/wD/xAAYEAEBAQEBAAAAAAAAAAAAAAACAQASEf/aAAgBAQABBQIMcvyZOGo6xbqXf//EABYRAQEBAAAAAAAAAAAAAAAAAAASAf/aAAgBAwEBPwGU4//EABcRAAMBAAAAAAAAAAAAAAAAAAABEhH/2gAIAQIBAT8BrC2f/8QAHBAAAgEFAQAAAAAAAAAAAAAAAAEhAhARIjFx/9oACAEBAAY/ApeHfhDNqW36f//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExYUFx/9oACAEBAAE/IWUPpBdnsoiL7iUGn2MTSSsUDFkf/9oADAMBAAIAAwAAABDwD//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EAsP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QXB//xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMUGh8f/aAAgBAQABPxB5bmGIlYqDQ3D7OO2A9hLjMVbwdi4K1nSZ7MRgIANYT//Z'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="palace"
+        title=""
+        src="/static/bcf552a1f3a412dd6e5b809017bdd323/f8fb9/palace.jpg"
+        srcset="/static/bcf552a1f3a412dd6e5b809017bdd323/e8976/palace.jpg 148w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/63df2/palace.jpg 295w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/f8fb9/palace.jpg 590w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/85e3d/palace.jpg 885w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/d1924/palace.jpg 1180w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/30631/palace.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h4>Montserrat</h4>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/70698a16f5be5be86962209cd0faa200/30631/ms.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABba5zRXJAn//EABkQAAMAAwAAAAAAAAAAAAAAAAABAgMEEf/aAAgBAQABBQKdtFbEKXnxs4xHT//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAZEAACAwEAAAAAAAAAAAAAAAABEQAQIQL/2gAIAQEABj8CAWRgubzSr//EABsQAAMAAgMAAAAAAAAAAAAAAAABETFhIVGB/9oACAEBAAE/IVUx44tPCChtX3QkPBn2NT//2gAMAwEAAgADAAAAEJMf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/EImP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qo//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQVGB/9oACAEBAAE/ECkANhxB5U6bP3yZmvwM6wN5WJts9rols2avrP/Z'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="ms"
+        title=""
+        src="/static/70698a16f5be5be86962209cd0faa200/f8fb9/ms.jpg"
+        srcset="/static/70698a16f5be5be86962209cd0faa200/e8976/ms.jpg 148w,
+/static/70698a16f5be5be86962209cd0faa200/63df2/ms.jpg 295w,
+/static/70698a16f5be5be86962209cd0faa200/f8fb9/ms.jpg 590w,
+/static/70698a16f5be5be86962209cd0faa200/85e3d/ms.jpg 885w,
+/static/70698a16f5be5be86962209cd0faa200/d1924/ms.jpg 1180w,
+/static/70698a16f5be5be86962209cd0faa200/30631/ms.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>The “Serrated Mountains” is an incredible sight. On top of the mountain,
+there are a number of trails that you can take. Unfortunately the signage is
+not the best—make sure you ask at the tourism office for directions. </p>
+<p><em>Note: it can get quite cold here.</em></p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/0e3feea50b60349e628a96ee0fc758f4/30631/ms2.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGq+dZKhng//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACAwQR/9oACAEBAAEFAhix2qLukv0WT2f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQEABj8CwcJaZ//EABkQAQEAAwEAAAAAAAAAAAAAAAEAESExQf/aAAgBAQABPyGlxydLawW2Qnepa3//2gAMAwEAAgADAAAAEM8f/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qh//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQADAQEBAAAAAAAAAAAAAAEAESExUYH/2gAIAQEAAT8Qr7EYXwh0adPIknIcHsrwqtayyUT/2Q=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="ms2"
+        title=""
+        src="/static/0e3feea50b60349e628a96ee0fc758f4/f8fb9/ms2.jpg"
+        srcset="/static/0e3feea50b60349e628a96ee0fc758f4/e8976/ms2.jpg 148w,
+/static/0e3feea50b60349e628a96ee0fc758f4/63df2/ms2.jpg 295w,
+/static/0e3feea50b60349e628a96ee0fc758f4/f8fb9/ms2.jpg 590w,
+/static/0e3feea50b60349e628a96ee0fc758f4/85e3d/ms2.jpg 885w,
+/static/0e3feea50b60349e628a96ee0fc758f4/d1924/ms2.jpg 1180w,
+/static/0e3feea50b60349e628a96ee0fc758f4/30631/ms2.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h3>Overall Impressions</h3>
+<p>I had a great time in Barcelona. I think a lot of that has to do with
+the fact that I was to meet a few locals who showed me a few things
+that I couldn’t find in the guides. The people I met were very warm, friendly,
+and their sense of humor made interactions very enjoyable. Given the chance,
+I would not hesitate to visit again.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/4d76f4c87e7aa84e37ac5ef7c68c275a/30631/bcn2.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUD/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAHfSavOonD/xAAYEAADAQEAAAAAAAAAAAAAAAAAAhMSAf/aAAgBAQABBQKZkz0qxZizH//EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAEDAQE/AYS//8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQIBAT8BtT//xAAXEAADAQAAAAAAAAAAAAAAAAAAEDEy/9oACAEBAAY/AlFop//EABwQAQABBAMAAAAAAAAAAAAAAAEAEBFRYSExQf/aAAgBAQABPyEWIM8oNjxuBF7rPUM2f//aAAwDAQACAAMAAAAQBD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/EB//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8Qgr//xAAbEAADAAMBAQAAAAAAAAAAAAAAARExQZEhgf/aAAgBAQABPxCzM3ngoZcIpuUVxxIbSK/UQ4/rP//Z'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="bcn2"
+        title=""
+        src="/static/4d76f4c87e7aa84e37ac5ef7c68c275a/f8fb9/bcn2.jpg"
+        srcset="/static/4d76f4c87e7aa84e37ac5ef7c68c275a/e8976/bcn2.jpg 148w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/63df2/bcn2.jpg 295w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/f8fb9/bcn2.jpg 590w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/85e3d/bcn2.jpg 885w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/d1924/bcn2.jpg 1180w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/30631/bcn2.jpg 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>Echo a menos.</em></p></div><hr style="margin-bottom:1.75rem"/><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQGAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAfbjngC0aJZnqRXYHf/EABwQAAICAgMAAAAAAAAAAAAAAAEDAAIEERITQ//aAAgBAQABBQJhIWthtfUfk7p2kRZ50niuxC//xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAwEBPwEj/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERAhAhgf/aAAgBAQAGPwJtE4mDor3oh6I//8QAHBABAAIBBQAAAAAAAAAAAAAAAQARMRAhUWGB/9oACAEBAAE/IcyoQnSiMHeVeYBFp2SsunyOy8HSORn/2gAMAwEAAgADAAAAEF//AL7/xAAYEQEAAwEAAAAAAAAAAAAAAAABABARIf/aAAgBAwEBPxDAOzsa/8QAGREBAAIDAAAAAAAAAAAAAAAAAQARECEx/9oACAECAQE/EEtKmsPZ/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARITFBof/aAAgBAQABPxD0EhHCEHlbkteR0vmr1PaiUC7ckjK1ExKUy5yogXDaeZ+TNEi/Wf/Z" alt="Yifei Wu" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s;border-radius:50%"/><noscript><picture><source srcSet="/static/5be5c3054b64fbc3048157bb9823193c/d2d31/profile-pic.jpeg 1x,
+/static/5be5c3054b64fbc3048157bb9823193c/0b804/profile-pic.jpeg 1.5x,
+/static/5be5c3054b64fbc3048157bb9823193c/753c3/profile-pic.jpeg 2x,
+/static/5be5c3054b64fbc3048157bb9823193c/31ca8/profile-pic.jpeg 3x" /><img width="50" height="50" src="/static/5be5c3054b64fbc3048157bb9823193c/d2d31/profile-pic.jpeg" alt="Yifei Wu" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>As dictated to Alexa by<!-- --> <a href="https://linkedin.com/in/wuy10">Yifei Wu</a></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/hello-world/">← <!-- -->Hello World</a></li><li></li></ul><footer>© <!-- -->2019<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'undefined', 'auto', {});
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"barcelona-guide-f45","path":"/barcelona-guide/"};window.dataPath="91/path---barcelona-guide-f-45-a48-RsM0Ay95vEZ3kpoM8L9oxRFTrM";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app.bddaef654c66ded1434d.css","/app-3d9fd7a5a7cd6cc2e6a1.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-bb61e080472a9f33f38e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-3a0692a9f6402ee9503c.js"],"component---src-pages-404-js":["/component---src-pages-404-js-9d4c1e5a55f5155bfe1e.js"],"component---src-pages-index-js":["/component---src-pages-index-js-43243db8651af067a928.js"],"pages-manifest":["/pages-manifest-5fd687baf34c80bd9cdf.js"]};/*]]>*/</script><script src="/webpack-runtime-b3385bb10f856980c571.js" async=""></script><script src="/app-3d9fd7a5a7cd6cc2e6a1.js" async=""></script><script src="/0-2159707fafb24590a999.js" async=""></script><script src="/component---src-templates-blog-post-js-3a0692a9f6402ee9503c.js" async=""></script></body></html>
