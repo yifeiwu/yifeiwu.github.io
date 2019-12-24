@@ -3,7 +3,7 @@ module.exports = {
     title: `Assorted Notes`,
     author: `Yifei Wu`,
     description: `Muh Blog`,
-    siteUrl: `yifeiwu.github.io`,
+    siteUrl: `https://yifeiwu.github.io`,
     social: {
       linkedin: `wuy10`,
     },
