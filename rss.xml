@@ -1,13 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Assorted Notes]]></title><description><![CDATA[Muh Blog]]></description><link>yifeiwu.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 24 Dec 2019 10:53:36 GMT</lastBuildDate><item><title><![CDATA[Code Improvement]]></title><description><![CDATA[I have a depressing or enlightening anecdote depending on your perspective. Last week I added a new feature to a module that I thought was…]]></description><link>yifeiwu.github.io/code-improvement/</link><guid isPermaLink="false">yifeiwu.github.io/code-improvement/</guid><pubDate>Tue, 02 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have a depressing or enlightening anecdote depending on your perspective. Last week I added a new feature to a module that I thought was pretty good. I spent a few days on and off working on it. Today one of the seniors in my team submitted a PR that basically deleted my changes and rewrote pretty much the whole module. My change hadn’t even made it to production yet T_T.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Assorted Notes]]></title><description><![CDATA[Muh Blog]]></description><link>https://yifeiwu.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Dec 2019 11:46:10 GMT</lastBuildDate><item><title><![CDATA[Senior Developer]]></title><description><![CDATA[I’ve been promoted to Senior Software Engineer for about 6 months now and here are some of my thoughts on the journey Getting there Prior to…]]></description><link>https://yifeiwu.github.io/senior-developer/</link><guid isPermaLink="false">https://yifeiwu.github.io/senior-developer/</guid><pubDate>Tue, 24 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been promoted to Senior Software Engineer for about 6 months now and here are some of my thoughts on the journey&lt;/p&gt;
+&lt;h3&gt;Getting there&lt;/h3&gt;
+&lt;p&gt;Prior to my promotion I’d been working as a Software Engineer for about 2 years and my total experience in the industry was approximately 3.5 years.
+My company has job levels starting at 1 (Associate) going all the way up to 8 (Distinguished Engineer/Senior Director). After level 3 (Senior Software Engineer), employees are allowed to choose to either go for a technical path or a management path. &lt;/p&gt;
+&lt;p&gt;Each job level has some description of what kind of responsibilities are associated with it. I had a pretty good manager who understood my desire to be promoted and he was able to coach me on what management was looking for in a candidate who was nominated for promotion. &lt;/p&gt;
+&lt;p&gt;The promotion boiled down being able to demonstrate fulfillment of these areas: &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;
+Do you ship code? Do you take ownership of your team/projects? Can you solve problems? &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Leadership&lt;/strong&gt;
+Have you contributed to improving the team? Do you delegate? Have you influenced within and outside of your team? &lt;/p&gt;
+&lt;h3&gt;Now and the Future&lt;/h3&gt;
+&lt;p&gt;The bump in responsibilities and ownership has been pretty significant and I think there’s a lot of upskilling that would need to take place before my next step. I think the biggest change I’ve felt is that I end up in a lot more meetings and get involved in project decisions now. There’s also been an increase in my sphere of influence in that I am seen as someone who takes responsibility over certain areas of our codebase and I also take part in improving the processes of our group organization which is one step above our team. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Code Improvement]]></title><description><![CDATA[I have a depressing or enlightening anecdote depending on your perspective. Last week I added a new feature to a module that I thought was…]]></description><link>https://yifeiwu.github.io/code-improvement/</link><guid isPermaLink="false">https://yifeiwu.github.io/code-improvement/</guid><pubDate>Tue, 02 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have a depressing or enlightening anecdote depending on your perspective. Last week I added a new feature to a module that I thought was pretty good. I spent a few days on and off working on it. Today one of the seniors in my team submitted a PR that basically deleted my changes and rewrote pretty much the whole module. My change hadn’t even made it to production yet :(.
 If you thought I felt like I’d been punched in the gut, you’d be right. After screaming “SERENITY NOW!”, I calmed down and I took a more careful look at his changes. I’d say overall it’s much cleaner than my implementation. &lt;/p&gt;
 &lt;p&gt;On a related note, one of my teammates also submitted PR that he worked long and hard on. During the code review one of the seniors found a more elegant solution and basically took a few hours to write a gem that would solve the issue. My teammate later confided to me, “I don’t know whether to laugh or cry.” &lt;/p&gt;
 &lt;p&gt;I guess my take from this is that if you look back on code you wrote 2 years ago it’ll look like crap. The reviewers who look at your code probably have more than 2+ years experience over you. How do you think they’ll feel? &lt;/p&gt;
 &lt;p&gt;The fact of the matter is there’s no use worrying about whether or not what you write is perfectly optimized, idiomatic or elegant. It won’t be. Focus on doing your best because that is what you’re currently capable of. Improvement will come with practice, experience and good feedback. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Guide to Barcelona 12/2018]]></title><description><![CDATA[I visited Barcelona with my cousin recently. As one of the most visited 
 places on Earth, there’s no shortage of general guides
-but I…]]></description><link>yifeiwu.github.io/barcelona-guide/</link><guid isPermaLink="false">yifeiwu.github.io/barcelona-guide/</guid><pubDate>Sat, 26 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+but I…]]></description><link>https://yifeiwu.github.io/barcelona-guide/</link><guid isPermaLink="false">https://yifeiwu.github.io/barcelona-guide/</guid><pubDate>Sat, 26 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7d02d840bbee7bf6e11e708b0b993ea9/30631/bcn.jpg&quot;
+    href=&quot;/static/7d02d840bbee7bf6e11e708b0b993ea9/e735c/bcn.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -26,13 +37,13 @@ but I…]]></description><link>yifeiwu.github.io/barcelona-guide/</link><guid is
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Barcelona&quot;
         title=&quot;&quot;
-        src=&quot;/static/7d02d840bbee7bf6e11e708b0b993ea9/f8fb9/bcn.jpg&quot;
-        srcset=&quot;/static/7d02d840bbee7bf6e11e708b0b993ea9/e8976/bcn.jpg 148w,
-/static/7d02d840bbee7bf6e11e708b0b993ea9/63df2/bcn.jpg 295w,
-/static/7d02d840bbee7bf6e11e708b0b993ea9/f8fb9/bcn.jpg 590w,
-/static/7d02d840bbee7bf6e11e708b0b993ea9/85e3d/bcn.jpg 885w,
-/static/7d02d840bbee7bf6e11e708b0b993ea9/d1924/bcn.jpg 1180w,
-/static/7d02d840bbee7bf6e11e708b0b993ea9/30631/bcn.jpg 1600w&quot;
+        src=&quot;/static/7d02d840bbee7bf6e11e708b0b993ea9/88218/bcn.jpg&quot;
+        srcset=&quot;/static/7d02d840bbee7bf6e11e708b0b993ea9/7237a/bcn.jpg 148w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/0cfdf/bcn.jpg 295w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/88218/bcn.jpg 590w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/77d57/bcn.jpg 885w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/5a917/bcn.jpg 1180w,
+/static/7d02d840bbee7bf6e11e708b0b993ea9/e735c/bcn.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -64,7 +75,7 @@ Not everything is documented and it’s a lot more fun to be surprised.&lt;/p&gt
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2b4464d5c5bd833e0dd87eecd9a5516b/30631/sagrada1.jpg&quot;
+    href=&quot;/static/2b4464d5c5bd833e0dd87eecd9a5516b/e735c/sagrada1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -83,13 +94,13 @@ Not everything is documented and it’s a lot more fun to be surprised.&lt;/p&gt
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;sagrada&quot;
         title=&quot;&quot;
-        src=&quot;/static/2b4464d5c5bd833e0dd87eecd9a5516b/f8fb9/sagrada1.jpg&quot;
-        srcset=&quot;/static/2b4464d5c5bd833e0dd87eecd9a5516b/e8976/sagrada1.jpg 148w,
-/static/2b4464d5c5bd833e0dd87eecd9a5516b/63df2/sagrada1.jpg 295w,
-/static/2b4464d5c5bd833e0dd87eecd9a5516b/f8fb9/sagrada1.jpg 590w,
-/static/2b4464d5c5bd833e0dd87eecd9a5516b/85e3d/sagrada1.jpg 885w,
-/static/2b4464d5c5bd833e0dd87eecd9a5516b/d1924/sagrada1.jpg 1180w,
-/static/2b4464d5c5bd833e0dd87eecd9a5516b/30631/sagrada1.jpg 1600w&quot;
+        src=&quot;/static/2b4464d5c5bd833e0dd87eecd9a5516b/88218/sagrada1.jpg&quot;
+        srcset=&quot;/static/2b4464d5c5bd833e0dd87eecd9a5516b/7237a/sagrada1.jpg 148w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/0cfdf/sagrada1.jpg 295w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/88218/sagrada1.jpg 590w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/77d57/sagrada1.jpg 885w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/5a917/sagrada1.jpg 1180w,
+/static/2b4464d5c5bd833e0dd87eecd9a5516b/e735c/sagrada1.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -104,7 +115,7 @@ the calendar ahead of time, these events occur a few times a month.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/eb45fddde54dc4fade3e2f2137bd1c99/30631/sagrada2.jpg&quot;
+    href=&quot;/static/eb45fddde54dc4fade3e2f2137bd1c99/e735c/sagrada2.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -123,13 +134,13 @@ the calendar ahead of time, these events occur a few times a month.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;sagrada2&quot;
         title=&quot;&quot;
-        src=&quot;/static/eb45fddde54dc4fade3e2f2137bd1c99/f8fb9/sagrada2.jpg&quot;
-        srcset=&quot;/static/eb45fddde54dc4fade3e2f2137bd1c99/e8976/sagrada2.jpg 148w,
-/static/eb45fddde54dc4fade3e2f2137bd1c99/63df2/sagrada2.jpg 295w,
-/static/eb45fddde54dc4fade3e2f2137bd1c99/f8fb9/sagrada2.jpg 590w,
-/static/eb45fddde54dc4fade3e2f2137bd1c99/85e3d/sagrada2.jpg 885w,
-/static/eb45fddde54dc4fade3e2f2137bd1c99/d1924/sagrada2.jpg 1180w,
-/static/eb45fddde54dc4fade3e2f2137bd1c99/30631/sagrada2.jpg 1600w&quot;
+        src=&quot;/static/eb45fddde54dc4fade3e2f2137bd1c99/88218/sagrada2.jpg&quot;
+        srcset=&quot;/static/eb45fddde54dc4fade3e2f2137bd1c99/7237a/sagrada2.jpg 148w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/0cfdf/sagrada2.jpg 295w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/88218/sagrada2.jpg 590w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/77d57/sagrada2.jpg 885w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/5a917/sagrada2.jpg 1180w,
+/static/eb45fddde54dc4fade3e2f2137bd1c99/e735c/sagrada2.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -142,7 +153,7 @@ within nativity scenes called a caganer.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ac1c1e76bea5351d05e4849597a4f57e/30631/cagane.jpg&quot;
+    href=&quot;/static/ac1c1e76bea5351d05e4849597a4f57e/e735c/cagane.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -161,13 +172,13 @@ within nativity scenes called a caganer.&lt;/em&gt;&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;cagane&quot;
         title=&quot;&quot;
-        src=&quot;/static/ac1c1e76bea5351d05e4849597a4f57e/f8fb9/cagane.jpg&quot;
-        srcset=&quot;/static/ac1c1e76bea5351d05e4849597a4f57e/e8976/cagane.jpg 148w,
-/static/ac1c1e76bea5351d05e4849597a4f57e/63df2/cagane.jpg 295w,
-/static/ac1c1e76bea5351d05e4849597a4f57e/f8fb9/cagane.jpg 590w,
-/static/ac1c1e76bea5351d05e4849597a4f57e/85e3d/cagane.jpg 885w,
-/static/ac1c1e76bea5351d05e4849597a4f57e/d1924/cagane.jpg 1180w,
-/static/ac1c1e76bea5351d05e4849597a4f57e/30631/cagane.jpg 1600w&quot;
+        src=&quot;/static/ac1c1e76bea5351d05e4849597a4f57e/88218/cagane.jpg&quot;
+        srcset=&quot;/static/ac1c1e76bea5351d05e4849597a4f57e/7237a/cagane.jpg 148w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/0cfdf/cagane.jpg 295w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/88218/cagane.jpg 590w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/77d57/cagane.jpg 885w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/5a917/cagane.jpg 1180w,
+/static/ac1c1e76bea5351d05e4849597a4f57e/e735c/cagane.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -189,7 +200,7 @@ mini-attractions within.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5066966cf47b80fdad1f714367b77933/30631/ciutadella.jpg&quot;
+    href=&quot;/static/5066966cf47b80fdad1f714367b77933/e735c/ciutadella.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -208,13 +219,13 @@ mini-attractions within.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;ciutadella&quot;
         title=&quot;&quot;
-        src=&quot;/static/5066966cf47b80fdad1f714367b77933/f8fb9/ciutadella.jpg&quot;
-        srcset=&quot;/static/5066966cf47b80fdad1f714367b77933/e8976/ciutadella.jpg 148w,
-/static/5066966cf47b80fdad1f714367b77933/63df2/ciutadella.jpg 295w,
-/static/5066966cf47b80fdad1f714367b77933/f8fb9/ciutadella.jpg 590w,
-/static/5066966cf47b80fdad1f714367b77933/85e3d/ciutadella.jpg 885w,
-/static/5066966cf47b80fdad1f714367b77933/d1924/ciutadella.jpg 1180w,
-/static/5066966cf47b80fdad1f714367b77933/30631/ciutadella.jpg 1600w&quot;
+        src=&quot;/static/5066966cf47b80fdad1f714367b77933/88218/ciutadella.jpg&quot;
+        srcset=&quot;/static/5066966cf47b80fdad1f714367b77933/7237a/ciutadella.jpg 148w,
+/static/5066966cf47b80fdad1f714367b77933/0cfdf/ciutadella.jpg 295w,
+/static/5066966cf47b80fdad1f714367b77933/88218/ciutadella.jpg 590w,
+/static/5066966cf47b80fdad1f714367b77933/77d57/ciutadella.jpg 885w,
+/static/5066966cf47b80fdad1f714367b77933/5a917/ciutadella.jpg 1180w,
+/static/5066966cf47b80fdad1f714367b77933/e735c/ciutadella.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -228,7 +239,7 @@ In Catalonia, they call this pica-pica(pronounced like the pokemon).&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/39e3926a01c79b8cb69d206b5235ef44/30631/patatas.jpg&quot;
+    href=&quot;/static/39e3926a01c79b8cb69d206b5235ef44/e735c/patatas.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -247,13 +258,13 @@ In Catalonia, they call this pica-pica(pronounced like the pokemon).&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;patatas&quot;
         title=&quot;&quot;
-        src=&quot;/static/39e3926a01c79b8cb69d206b5235ef44/f8fb9/patatas.jpg&quot;
-        srcset=&quot;/static/39e3926a01c79b8cb69d206b5235ef44/e8976/patatas.jpg 148w,
-/static/39e3926a01c79b8cb69d206b5235ef44/63df2/patatas.jpg 295w,
-/static/39e3926a01c79b8cb69d206b5235ef44/f8fb9/patatas.jpg 590w,
-/static/39e3926a01c79b8cb69d206b5235ef44/85e3d/patatas.jpg 885w,
-/static/39e3926a01c79b8cb69d206b5235ef44/d1924/patatas.jpg 1180w,
-/static/39e3926a01c79b8cb69d206b5235ef44/30631/patatas.jpg 1600w&quot;
+        src=&quot;/static/39e3926a01c79b8cb69d206b5235ef44/88218/patatas.jpg&quot;
+        srcset=&quot;/static/39e3926a01c79b8cb69d206b5235ef44/7237a/patatas.jpg 148w,
+/static/39e3926a01c79b8cb69d206b5235ef44/0cfdf/patatas.jpg 295w,
+/static/39e3926a01c79b8cb69d206b5235ef44/88218/patatas.jpg 590w,
+/static/39e3926a01c79b8cb69d206b5235ef44/77d57/patatas.jpg 885w,
+/static/39e3926a01c79b8cb69d206b5235ef44/5a917/patatas.jpg 1180w,
+/static/39e3926a01c79b8cb69d206b5235ef44/e735c/patatas.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -273,7 +284,7 @@ sausage called Garbanzo y Callos.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/02acd7df1a6dc7afbcaadad5578c3807/30631/callos.jpg&quot;
+    href=&quot;/static/02acd7df1a6dc7afbcaadad5578c3807/e735c/callos.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -292,13 +303,13 @@ sausage called Garbanzo y Callos.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;callos&quot;
         title=&quot;&quot;
-        src=&quot;/static/02acd7df1a6dc7afbcaadad5578c3807/f8fb9/callos.jpg&quot;
-        srcset=&quot;/static/02acd7df1a6dc7afbcaadad5578c3807/e8976/callos.jpg 148w,
-/static/02acd7df1a6dc7afbcaadad5578c3807/63df2/callos.jpg 295w,
-/static/02acd7df1a6dc7afbcaadad5578c3807/f8fb9/callos.jpg 590w,
-/static/02acd7df1a6dc7afbcaadad5578c3807/85e3d/callos.jpg 885w,
-/static/02acd7df1a6dc7afbcaadad5578c3807/d1924/callos.jpg 1180w,
-/static/02acd7df1a6dc7afbcaadad5578c3807/30631/callos.jpg 1600w&quot;
+        src=&quot;/static/02acd7df1a6dc7afbcaadad5578c3807/88218/callos.jpg&quot;
+        srcset=&quot;/static/02acd7df1a6dc7afbcaadad5578c3807/7237a/callos.jpg 148w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/0cfdf/callos.jpg 295w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/88218/callos.jpg 590w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/77d57/callos.jpg 885w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/5a917/callos.jpg 1180w,
+/static/02acd7df1a6dc7afbcaadad5578c3807/e735c/callos.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -311,7 +322,7 @@ age has destroyed a lot of its former beauty.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bcf552a1f3a412dd6e5b809017bdd323/30631/palace.jpg&quot;
+    href=&quot;/static/bcf552a1f3a412dd6e5b809017bdd323/e735c/palace.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -330,13 +341,13 @@ age has destroyed a lot of its former beauty.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;palace&quot;
         title=&quot;&quot;
-        src=&quot;/static/bcf552a1f3a412dd6e5b809017bdd323/f8fb9/palace.jpg&quot;
-        srcset=&quot;/static/bcf552a1f3a412dd6e5b809017bdd323/e8976/palace.jpg 148w,
-/static/bcf552a1f3a412dd6e5b809017bdd323/63df2/palace.jpg 295w,
-/static/bcf552a1f3a412dd6e5b809017bdd323/f8fb9/palace.jpg 590w,
-/static/bcf552a1f3a412dd6e5b809017bdd323/85e3d/palace.jpg 885w,
-/static/bcf552a1f3a412dd6e5b809017bdd323/d1924/palace.jpg 1180w,
-/static/bcf552a1f3a412dd6e5b809017bdd323/30631/palace.jpg 1600w&quot;
+        src=&quot;/static/bcf552a1f3a412dd6e5b809017bdd323/88218/palace.jpg&quot;
+        srcset=&quot;/static/bcf552a1f3a412dd6e5b809017bdd323/7237a/palace.jpg 148w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/0cfdf/palace.jpg 295w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/88218/palace.jpg 590w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/77d57/palace.jpg 885w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/5a917/palace.jpg 1180w,
+/static/bcf552a1f3a412dd6e5b809017bdd323/e735c/palace.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -348,7 +359,7 @@ age has destroyed a lot of its former beauty.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/70698a16f5be5be86962209cd0faa200/30631/ms.jpg&quot;
+    href=&quot;/static/70698a16f5be5be86962209cd0faa200/e735c/ms.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -367,13 +378,13 @@ age has destroyed a lot of its former beauty.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;ms&quot;
         title=&quot;&quot;
-        src=&quot;/static/70698a16f5be5be86962209cd0faa200/f8fb9/ms.jpg&quot;
-        srcset=&quot;/static/70698a16f5be5be86962209cd0faa200/e8976/ms.jpg 148w,
-/static/70698a16f5be5be86962209cd0faa200/63df2/ms.jpg 295w,
-/static/70698a16f5be5be86962209cd0faa200/f8fb9/ms.jpg 590w,
-/static/70698a16f5be5be86962209cd0faa200/85e3d/ms.jpg 885w,
-/static/70698a16f5be5be86962209cd0faa200/d1924/ms.jpg 1180w,
-/static/70698a16f5be5be86962209cd0faa200/30631/ms.jpg 1600w&quot;
+        src=&quot;/static/70698a16f5be5be86962209cd0faa200/88218/ms.jpg&quot;
+        srcset=&quot;/static/70698a16f5be5be86962209cd0faa200/7237a/ms.jpg 148w,
+/static/70698a16f5be5be86962209cd0faa200/0cfdf/ms.jpg 295w,
+/static/70698a16f5be5be86962209cd0faa200/88218/ms.jpg 590w,
+/static/70698a16f5be5be86962209cd0faa200/77d57/ms.jpg 885w,
+/static/70698a16f5be5be86962209cd0faa200/5a917/ms.jpg 1180w,
+/static/70698a16f5be5be86962209cd0faa200/e735c/ms.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -388,7 +399,7 @@ not the best—make sure you ask at the tourism office for directions. &lt;/p&gt
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0e3feea50b60349e628a96ee0fc758f4/30631/ms2.jpg&quot;
+    href=&quot;/static/0e3feea50b60349e628a96ee0fc758f4/e735c/ms2.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -407,13 +418,13 @@ not the best—make sure you ask at the tourism office for directions. &lt;/p&gt
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;ms2&quot;
         title=&quot;&quot;
-        src=&quot;/static/0e3feea50b60349e628a96ee0fc758f4/f8fb9/ms2.jpg&quot;
-        srcset=&quot;/static/0e3feea50b60349e628a96ee0fc758f4/e8976/ms2.jpg 148w,
-/static/0e3feea50b60349e628a96ee0fc758f4/63df2/ms2.jpg 295w,
-/static/0e3feea50b60349e628a96ee0fc758f4/f8fb9/ms2.jpg 590w,
-/static/0e3feea50b60349e628a96ee0fc758f4/85e3d/ms2.jpg 885w,
-/static/0e3feea50b60349e628a96ee0fc758f4/d1924/ms2.jpg 1180w,
-/static/0e3feea50b60349e628a96ee0fc758f4/30631/ms2.jpg 1600w&quot;
+        src=&quot;/static/0e3feea50b60349e628a96ee0fc758f4/88218/ms2.jpg&quot;
+        srcset=&quot;/static/0e3feea50b60349e628a96ee0fc758f4/7237a/ms2.jpg 148w,
+/static/0e3feea50b60349e628a96ee0fc758f4/0cfdf/ms2.jpg 295w,
+/static/0e3feea50b60349e628a96ee0fc758f4/88218/ms2.jpg 590w,
+/static/0e3feea50b60349e628a96ee0fc758f4/77d57/ms2.jpg 885w,
+/static/0e3feea50b60349e628a96ee0fc758f4/5a917/ms2.jpg 1180w,
+/static/0e3feea50b60349e628a96ee0fc758f4/e735c/ms2.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -430,7 +441,7 @@ I would not hesitate to visit again.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4d76f4c87e7aa84e37ac5ef7c68c275a/30631/bcn2.jpg&quot;
+    href=&quot;/static/4d76f4c87e7aa84e37ac5ef7c68c275a/e735c/bcn2.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -449,13 +460,13 @@ I would not hesitate to visit again.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;bcn2&quot;
         title=&quot;&quot;
-        src=&quot;/static/4d76f4c87e7aa84e37ac5ef7c68c275a/f8fb9/bcn2.jpg&quot;
-        srcset=&quot;/static/4d76f4c87e7aa84e37ac5ef7c68c275a/e8976/bcn2.jpg 148w,
-/static/4d76f4c87e7aa84e37ac5ef7c68c275a/63df2/bcn2.jpg 295w,
-/static/4d76f4c87e7aa84e37ac5ef7c68c275a/f8fb9/bcn2.jpg 590w,
-/static/4d76f4c87e7aa84e37ac5ef7c68c275a/85e3d/bcn2.jpg 885w,
-/static/4d76f4c87e7aa84e37ac5ef7c68c275a/d1924/bcn2.jpg 1180w,
-/static/4d76f4c87e7aa84e37ac5ef7c68c275a/30631/bcn2.jpg 1600w&quot;
+        src=&quot;/static/4d76f4c87e7aa84e37ac5ef7c68c275a/88218/bcn2.jpg&quot;
+        srcset=&quot;/static/4d76f4c87e7aa84e37ac5ef7c68c275a/7237a/bcn2.jpg 148w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/0cfdf/bcn2.jpg 295w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/88218/bcn2.jpg 590w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/77d57/bcn2.jpg 885w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/5a917/bcn2.jpg 1180w,
+/static/4d76f4c87e7aa84e37ac5ef7c68c275a/e735c/bcn2.jpg 1600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -463,23 +474,15 @@ I would not hesitate to visit again.&lt;/p&gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Echo a menos.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Me]]></title><description><![CDATA[Hi, my name is Yifei. I currently live in Melbourne working as a software engineer.  In a previous life, I was a biomedical engineer…]]></description><link>yifeiwu.github.io/about-me/</link><guid isPermaLink="false">yifeiwu.github.io/about-me/</guid><pubDate>Fri, 25 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, my name is Yifei. I currently live in Melbourne working as a software engineer. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Echo a menos.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Me]]></title><description><![CDATA[Hi, my name is Yifei. I currently live in Melbourne working as a software engineer.  In a previous life, I was a biomedical engineer…]]></description><link>https://yifeiwu.github.io/about-me/</link><guid isPermaLink="false">https://yifeiwu.github.io/about-me/</guid><pubDate>Fri, 25 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, my name is Yifei. I currently live in Melbourne working as a software engineer. &lt;/p&gt;
 &lt;p&gt;In a previous life, I was a biomedical engineer investigating computer guided
 liver &lt;a href=&quot;https://doi.org/10.1117/12.2044250&quot;&gt;surgery&lt;/a&gt;, and a puréer of fruit &lt;a href=&quot;http://dx.doi.org/10.1016/j.ympev.2010.11.022&quot;&gt;flies&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may have also seen me &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Talking at DDD Melbourne 2018 about using &lt;a href=&quot;https://twitter.com/DDDMelb/status/1038952464970444801&quot;&gt;Stripe&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mentoring Team Brimbank at &lt;a href=&quot;https://blog.codeforaustralia.org/tagged/brimbank&quot;&gt;CodeForAustralia&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Doing something? for &lt;a href=&quot;https://generalassemb.ly/instructors/yifei-wu/15568&quot;&gt;General Assembly&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Achieving the 4th highest score at a Space Shooting &lt;a href=&quot;https://zerolatencyvr.com/melbourne/game-results/101637?ss=true&amp;#x26;pid=cgsFKnJcsxnvUILz4Dd9jg&quot;&gt;VR&lt;/a&gt;
-game.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Talking at DDD Melbourne 2018 about using &lt;a href=&quot;https://twitter.com/DDDMelb/status/1038952464970444801&quot;&gt;Stripe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mentoring Team Brimbank at &lt;a href=&quot;https://blog.codeforaustralia.org/tagged/brimbank&quot;&gt;CodeForAustralia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Doing something? for &lt;a href=&quot;https://generalassemb.ly/instructors/yifei-wu/15568&quot;&gt;General Assembly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Achieving the 4th highest score at a Space Shooting &lt;a href=&quot;https://zerolatencyvr.com/melbourne/game-results/101637?ss=true&amp;#x26;pid=cgsFKnJcsxnvUILz4Dd9jg&quot;&gt;VR&lt;/a&gt;
+game.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If inclined, you may contact me &lt;a href=&quot;https://www.linkedin.com/in/wuy10&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item></channel></rss>
